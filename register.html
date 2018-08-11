@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Register</title>
+<style>
+	.outer
+	{
+		border:solid;
+		padding:25px 25px;
+                margin:auto;
+		width:35%;
+		margin-top:5%;
+		margin-bottom:5%;
+		min-width:478px;
+		min-height:669px;
+                font-size:20px;
+
+	}
+	#u
+	{
+		font-size:25px;
+	}
+</style>
+</head>
+<body>
+<div class="outer">
+	<fieldset>
+		<h2> Register</h2>
+		<p>Please fill in this form to create an account</p>
+		<form action="http://127.0.0.1/cgi-bin/dbtest.py">
+			<div id="u">
+				Email Address:</br><input type="email" name="email" size="35px" placeholder="Enter Email Address" required></br></br>
+				Password:</br><input type="password" name="password" size="35px" placeholder="Enter Password" required></br></br>
+				Confirm Password:</br><input type="password" name="cpassword" size="35px" placeholder="Confirm Password" required></br></br>
+				UserName:</br><input type="text" name="usern" size="35px" placeholder="Enter Username" required></br></br>
+			</div>
+			<input type="submit" value="Register" style="height:40px; width:100px; font-size:20px; background-color:#5C75F2; color:white; cursor:pointer;"> </br>
+		</form>
+
+		</br><p>Already have an account? <a href="index.html">    Login</a></p>
+	</fieldset>
+</div>
+</body>
+</html>
+
